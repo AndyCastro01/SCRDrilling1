@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.body{
+  background:red;
+}
+.titulonav{
+  font-size:25px;  
+  background: -webkit-linear-gradient(left top, blue, rgb(0, 247, 255));
+  background: linear-gradient(to bottom right, blue, rgb(0, 247, 255));
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;  
+}
+
+.catnavbar{
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.eslogan{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 20px;
+  margin: 0 auto;
+  font-family: "Courier New";
+  border-right: 0.15em solid #18bdec;
+  animation: typing 5s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.barradenavegacion{
+
+}
+
